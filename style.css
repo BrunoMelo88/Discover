@@ -33,6 +33,10 @@ body {
   height: 100hv;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body * {
   font-family: "Inter";
   color: var(--text-color);
